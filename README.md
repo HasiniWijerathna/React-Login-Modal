@@ -53,6 +53,30 @@ class Example extends Component {
 
 ```
 
+  
+  ## Registration validation
+
+Validation to set the  sign up button enable,
+
+-  Username must contain at least three characters
+-  Email validation
+- Password at least should contains eight characters, at least one letter and one number
+- Password and confirm password should be matched
+- Input fields can not be empty
+
+
+[![reg](https://user-images.githubusercontent.com/20472144/66055625-6972c700-e568-11e9-8f6e-c0887947215c.gif)
+
+
+  ## Login validation
+  
+  Validation to set the login button enable,
+- Username and password fields can not be empty
+
+
+[![login](https://user-images.githubusercontent.com/20472144/66046010-733ffe80-e557-11e9-90cf-1bb8df5fa416.gif)
+
+
 ### CSS Properties can be customized as shown below:
 
 ```jsx
@@ -83,6 +107,8 @@ class Example extends Component {
 ``errorEnable`` and ``errorMessage`` are used to prompt an customized error for login/sign  up.
 These erros can be shown by setting ``errorEnable``, ``true`` and passing an error message to ``errorMessage`` as showed in the example
 
+[![css](https://user-images.githubusercontent.com/20472144/66046890-468ce680-e559-11e9-84c9-48968105fb16.png)
+
 ## Properties
 
 
@@ -103,21 +129,7 @@ Property          | Type       | Description
 `handleSignup`    | *func*     | Gets called when the sign up button is clicked with the validated username, email, password
 `handleLogin`     | *func*     | Gets called when the login button is clicked with the authenticated username, password
 
-  
-  ## Registration validation
 
-Validation to set the  sign up button enable,
-
--  Username must contain at least three characters
--  Email validation
-- Password at least should contains eight characters, at least one letter and one number
-- Password and confirm password should be matched
-- Input fields can not be empty
-
-  ## Login validation
-  
-  Validation to set the login button enable,
-- Username and password fields can not be empty
 
 ## Compatibility
 
