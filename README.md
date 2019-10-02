@@ -65,7 +65,7 @@ Validation to set the  sign up button enable,
 - Input fields can not be empty
 
 
-[![reg](https://user-images.githubusercontent.com/20472144/66055625-6972c700-e568-11e9-8f6e-c0887947215c.gif)
+![reg](https://user-images.githubusercontent.com/20472144/66055625-6972c700-e568-11e9-8f6e-c0887947215c.gif)
 
 
   ## Login validation
@@ -74,7 +74,7 @@ Validation to set the  sign up button enable,
 - Username and password fields can not be empty
 
 
-[![login](https://user-images.githubusercontent.com/20472144/66046010-733ffe80-e557-11e9-90cf-1bb8df5fa416.gif)
+![login](https://user-images.githubusercontent.com/20472144/66046010-733ffe80-e557-11e9-90cf-1bb8df5fa416.gif)
 
 
 ### CSS Properties can be customized as shown below:
@@ -107,7 +107,7 @@ class Example extends Component {
 ``errorEnable`` and ``errorMessage`` are used to prompt an customized error for login/sign  up.
 These erros can be shown by setting ``errorEnable``, ``true`` and passing an error message to ``errorMessage`` as showed in the example
 
-[![login](https://user-images.githubusercontent.com/20472144/66055996-06cdfb00-e569-11e9-9003-2ca0481a4375.png)
+![login](https://user-images.githubusercontent.com/20472144/66055996-06cdfb00-e569-11e9-9003-2ca0481a4375.png)
 
 
 ## Properties
