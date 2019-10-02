@@ -409,7 +409,6 @@ class Home extends Component {
         <div className={styles.loginGroup}>
           <input
             style={font}
-            type="text"
             required
             type="password"
             onChange={this.handleLoginPassword}
