@@ -103,7 +103,21 @@ Property          | Type       | Description
 `handleSignup`    | *func*     | Gets called when the sign up button is clicked with the validated username, email, password
 `handleLogin`     | *func*     | Gets called when the login button is clicked with the authenticated username, password
 
+  
+  ## Registration validation
 
+Validation to set the  sign up button enable,
+
+-  Username must contain at least three characters
+-  Email validation
+- Password at least should contains eight characters, at least one letter and one number
+- Password and confirm password should be matched
+- Input fields can not be empty
+
+  ## Login validation
+  
+  Validation to set the login button enable,
+- Username and password fields can not be empty
 
 ## Compatibility
 
