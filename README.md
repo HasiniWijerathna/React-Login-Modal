@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-markdown-editor.svg)](https://www.npmjs.com/package/react-markdown-editor) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![NPM](https://nodei.co/npm/react-edit-it.png)](https://nodei.co/npm/react-edit-it/)
+[![NPM](https://nodei.co/npm/react-login-modal.png)](https://nodei.co/npm/react-login-modal/)
 
 ## Install
 
