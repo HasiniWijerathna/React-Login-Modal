@@ -5,7 +5,7 @@ React Login Modal is a functional responsive login and signup modal with validat
 
 - Validation for login and sign up 
 - CSS customizable - Styles of button color, font styles and font color
-- Custom errors - User authentication errors and customized errors can be passed as additional validations
+- Custom errors - User authentication errors can be passed as additional validation
 
 [![NPM](https://img.shields.io/npm/v/react-markdown-editor.svg)](https://www.npmjs.com/package/react-markdown-editor) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -53,7 +53,7 @@ class Example extends Component {
 
 ```
 
-### CSS Properties can be customized with as shown below:
+### CSS Properties can be customized as shown below:
 
 ```jsx
 import React, { Component } from "react";
@@ -81,7 +81,7 @@ class Example extends Component {
 ```
 
 ``errorEnable`` and ``errorMessage`` are used to prompt an customized error for login/sign  up.
-Custom erros can be shown  by setting ``errorEnable``, ``true`` and passing an error message to ``errorMessage`` as showed in the example
+These erros can be shown by setting ``errorEnable``, ``true`` and passing an error message to ``errorMessage`` as showed in the example
 
 ## Properties
 
