@@ -458,16 +458,16 @@ class Home extends Component {
 
           <div className={styles.loginGroup}>
             <input
-              type="text"
               required
               style={font}
+              type="password"
               onChange={this.handleSignupPassword}
             ></input>
             <label style={font}>Password</label>
           </div>
           <div className={styles.loginGroup}>
             <input
-              type="text"
+              type="password"
               required
               style={font}
               onChange={this.handleSignupConfirmPassword}
