@@ -107,7 +107,8 @@ class Example extends Component {
 ``errorEnable`` and ``errorMessage`` are used to prompt an customized error for login/sign  up.
 These erros can be shown by setting ``errorEnable``, ``true`` and passing an error message to ``errorMessage`` as showed in the example
 
-[![css](https://user-images.githubusercontent.com/20472144/66046890-468ce680-e559-11e9-84c9-48968105fb16.png)
+[![login](https://user-images.githubusercontent.com/20472144/66055996-06cdfb00-e569-11e9-9003-2ca0481a4375.png)
+
 
 ## Properties
 
