@@ -1,8 +1,10 @@
-# react-login-modal
+# React Login Modal
 
 > Functional responsive login and signup modal with validation for React JS
 
-[![NPM](https://img.shields.io/npm/v/react-login-modal.svg)](https://www.npmjs.com/package/react-login-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-markdown-editor.svg)](https://www.npmjs.com/package/react-markdown-editor) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+[![NPM](https://nodei.co/npm/react-edit-it.png)](https://nodei.co/npm/react-edit-it/)
 
 ## Install
 
