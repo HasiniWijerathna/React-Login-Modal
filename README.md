@@ -22,10 +22,9 @@ npm install --save react-login-modal
 
 Or  `yarn`
 
-yarn add react-login-modal
 
 ```bash
-npm install --save react-login-modal
+yarn add react-login-modal
 ```
 
 ## Usage
@@ -39,7 +38,7 @@ import LoginModal from 'react-login-modal'
 
 class Example extends Component {
     handleSignup = (username, email, password) => {}
-    handleLogin = (username, email, password) => {}
+    handleLogin = (username, password) => {}
 	
 	render () {
         return (
@@ -85,7 +84,7 @@ import LoginModal from "react-login-modal";
 
 class Example extends Component {
   handleSignup = (username, email, password) => {};
-  handleLogin = (username, email, password) => {};
+  handleLogin = (username, password) => {}
 
   render() {
     return (
@@ -107,7 +106,7 @@ class Example extends Component {
 ``errorEnable`` and ``errorMessage`` are used to prompt an customized error for login/sign  up.
 These erros can be shown by setting ``errorEnable``, ``true`` and passing an error message to ``errorMessage`` as showed in the example
 
-![login](https://user-images.githubusercontent.com/20472144/66055996-06cdfb00-e569-11e9-9003-2ca0481a4375.png)
+![login](https://user-images.githubusercontent.com/20472144/66090956-250f1780-e5b8-11e9-9393-1c57cfabfd7a.png)
 
 
 ## Properties
