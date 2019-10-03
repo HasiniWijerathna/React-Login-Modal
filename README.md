@@ -133,8 +133,8 @@ Code sample is available in the /example directory for your perusal. You can exe
 
 if you haven't, You may need to install,
 
-npm or nvm (Go with nvm, its much easier to switch versions!)
-Node 8.16.0 or Node 10.16.0 or later version
+- npm or nvm (Go with nvm, its much easier to switch versions!)
+- Node 8.16.0 or Node 10.16.0 or later version
 
 
 ## Compatibility
