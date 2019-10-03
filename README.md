@@ -32,22 +32,21 @@ yarn add react-login-modal
 ### The most basic use of the login modal can be described with :
 
 ```jsx
-import React, { Component } from 'react'
-
-import LoginModal from 'react-login-modal'
+import React, { Component } from "react";
+import LoginModal from "react-login-modal";
 
 class Example extends Component {
-    handleSignup = (username, email, password) => {}
-    handleLogin = (username, password) => {}
-	
-	render () {
-        return (
-         <LoginModal
-		    handleSignup={this.handleSignup}
-         	handleLogin={this.handleLogin}
-        />
-        )
-    }
+  handleSignup = (username, email, password) => {};
+  handleLogin = (username, password) => {}
+
+  render() {
+    return (
+      <LoginModal
+        handleSignup={this.handleSignup}
+        handleLogin={this.handleLogin}
+      />
+    );
+  }
 }
 
 ```
@@ -129,6 +128,13 @@ Property          | Type       | Description
 `handleSignup`    | *func*     | Gets called when the sign up button is clicked with the validated username, email, password
 `handleLogin`     | *func*     | Gets called when the login button is clicked with the authenticated username, password
 
+## Sample Code
+Code sample is available in the /example directory for your perusal. You can execute npm install to generate the necessary dependencies for the examples.
+
+if you haven't, You may need to install,
+
+npm or nvm (Go with nvm, its much easier to switch versions!)
+Node 8.16.0 or Node 10.16.0 or later version
 
 
 ## Compatibility
